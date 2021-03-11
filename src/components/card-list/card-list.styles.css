@@ -5,3 +5,15 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
+
+@media only screen and (max-width: 1070px) {
+  .card-list {
+    grid-template-columns: repeat(auto-fit, minmax(41vw, 1fr));
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 440px) {
+  .card-list {
+    grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr));
+  }
+}
