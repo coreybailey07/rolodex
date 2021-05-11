@@ -6,7 +6,13 @@
   grid-gap: 20px;
 }
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1170px) {
+  .card-list {
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+  }
+}
+
+@media only screen and (max-width: 1030px) {
   .card-list {
     grid-template-columns: repeat(auto-fit, minmax(41vw, 1fr));
   }
