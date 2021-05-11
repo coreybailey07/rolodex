@@ -2,7 +2,7 @@
   "name": "react-monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://coreybailey07.github.io/monsters-rolodex",
+  "homepage": "https://coreybailey07.github.io/rolodex",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
