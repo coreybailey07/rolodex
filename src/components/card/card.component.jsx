@@ -3,7 +3,7 @@ import React from 'react';
 import './card.styles.css';
 
 export const Card = props => (
-  <div className='card-container'>
+  <div className='card-container' onClick={() => { window.location.href = 'mailto:' + props.monster.email + '?subject=Monster-Rolodex&body=Monster%20Rolodex' }}>
     <img
       alt='monster'
       src={`https://robohash.org/${props.monster.id}?set=set2&size=200x200`}
@@ -11,4 +11,4 @@ export const Card = props => (
     <h2>{props.monster.name}</h2>
     <p>{props.monster.email}</p>
   </div>
-);
+)
